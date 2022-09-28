@@ -10,8 +10,6 @@ async function main() {
   let contract = "0x38Deb6b0BBB370D1F1Dc1A5AAb8694C25f6F34dd";
   let fallback = new Fallback__factory(deployer).attach(contract);
 
-  console.log(await deployer.address);
-
   // add record to mapping
   tx = await fallback.contribute({
     value: ethers.utils.parseEther("0.0001"),
