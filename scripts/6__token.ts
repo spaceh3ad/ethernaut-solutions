@@ -9,7 +9,7 @@ async function main() {
 
   let tx; // will have to wait for each tx
   let [deployer] = await ethers.getSigners();
-  let contract = "0xf7dda52Ceb147e73537738D1B661fDe81eE174A6";
+  let contract = "0x4b2DafA49A2Da52346a182CB24923B776bD649E5";
   let token = new Token__factory(deployer).attach(contract);
 
   tx = await token.transfer(contract, 21, {
