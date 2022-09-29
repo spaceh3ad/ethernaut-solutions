@@ -2,7 +2,7 @@ import { ethers } from "hardhat";
 import { Evil12__factory } from "../typechain-types";
 
 async function main() {
-  // The goal of this level is for you to steal all the funds from the contract.
+  // Reach the top
 
   let tx; // will have to wait for each tx
 
