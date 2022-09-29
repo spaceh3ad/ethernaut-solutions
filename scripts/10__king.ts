@@ -14,7 +14,6 @@ async function main() {
 
   tx = await evil.becomeKing({
     value: ethers.utils.parseEther("0.001"),
-    gasLimit: 100_000,
   });
   await tx.wait();
 }
