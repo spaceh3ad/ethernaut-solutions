@@ -2,7 +2,7 @@ import { ethers } from "hardhat";
 import { Privacy__factory, Helper13__factory } from "../typechain-types";
 
 async function main() {
-  // Reach the top
+  // unlock the contract
 
   let tx; // will have to wait for each tx
 
