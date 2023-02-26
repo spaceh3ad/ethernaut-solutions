@@ -10,7 +10,6 @@ async function main() {
   let contract = "0x629358c3b96dDFe908F8A6E24090f0cC83a9C0E2";
 
   let alien = new AlienCodex__factory(deployer).attach(contract);
-  console.log(13);
   await alien.make_contact();
 
   console.log(15);

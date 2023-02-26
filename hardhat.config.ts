@@ -24,6 +24,9 @@ const config: HardhatUserConfig = {
       accounts: [process.env.PRIVATE_KEY!!],
       gas: 1_000_000,
     },
+    // localhost: {
+    //   blockGasLimit: 300_000,
+    // },
   },
 };
 
