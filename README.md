@@ -1,3 +1,36 @@
 # Ethernaut Solutions
 
 Done with help of Remix and Foundry.
+
+Solutions at [src/](./src/):
+
+1. [Hello](./src/L1.md)
+2. [Fallback](./src/L2_Fallback.md)
+3. [Fallout](./src/L3_Fallout.md)
+4. [CoinFlip](./src/L4_CoinFlip.md)
+5. [Telephone](./src/L5_Telephone.md)
+6. [Token](./src/L6_Token.md)
+7. [Delegation](./src/L7_Delegation.md)
+8. [Force](./src/L8_Force.md)
+9. [Vault](./src/L9_Vault.md)
+10. [King](./src/L10_King.md)
+11. [Reentrance](./src/L11_Reentrance.md)
+12. [Elevator](./src/L12_Elevator.md)
+13. [Privacy](./src/L13_Privacy.md)
+14. [GateKeeperOne](./src/L14_GateKeeperOne.md)
+15. [GateKeeperTwo](./src/L15_GateKeeperTwo.md)
+16. [NaughtCoin](./src/L16_NaughtCoin.md)
+17. [Preservation](./src/L17_Preservation.md)
+18. [Recovery](./src/L18_Recovery.md)
+19. [MagicNumber](./src/L19_MagicNumber.md)
+20. [AlienCodex](./src/L20_AlienCodex.md)
+21. [Denial](./src/L21_Denial.md)
+22. [Shop](./src/L22_Shop.md)
+23. [Dex](./src/L23_Dex.md)
+24. [Dex2](./src/L24_Dex2.md)
+25. [PuzzleWallet](./src/L25_PuzzleWallet.md)
+26. [Motorbike](./src/L26_Motorbike.md)
+27. [DoubleEntryPoint](./src/L27_DoubleEntryPoint.md)
+28. [GoodSamartian](./src/L28_GoodSamaritan.md)
+29. [GateKeeprThree](./src/L29_GatekeeperThree.md)
+30. [Switch](./src/L30_Switch.md)
